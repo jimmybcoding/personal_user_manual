@@ -24,9 +24,12 @@ const workFacts = [
   {
     title: "Approach to Management",
     text: "I would never willingly manage people, but if I had to, I would be hands-off. I prefer to be managed the same way. I enjoy being a productive, independent contributor."
+  },
+  {
+    title: "How to Help Me",
+    text: "Please do not try to help me. I will explicitly ask for help if I need it."
   }
 ];
-
 
 const Working = () => {
     return (

@@ -5,7 +5,7 @@ import Image from "next/image"
 const Perceptions = ({ handleOpenEmailModal }) => {
   
     return (
-    <div className="container bg-pink-300 text-black">
+    <div className=" bg-pink-300 text-black min-h-screen">
         <div className="pt-10 pb-6 px-6">      
             <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 mt-6 my-6 ml-6 text-5xl font-bold"
                 id="Perceptions"
@@ -13,20 +13,20 @@ const Perceptions = ({ handleOpenEmailModal }) => {
               Perceptions & Misunderstandings                  
             </h1>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center gap-10 max-w-4xl mx-auto p-4 my-4">
+        <div className="flex flex-col justify-center gap-10 max-w-4xl mx-auto p-4 my-4">
             {/* Strengths Card */}
-            <div className="w-full sm:w-2/5 p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
+            <div className="w-full p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
                 <h3 className="text-lg font-semibold border-b-2 border-blue-500 mb-2 pb-1">💪 My perceived strengths</h3>
                 <ul className="list-disc pl-5 space-y-1">
                 <li>Responsible and reliable</li>
                 <li>Analytical and composed</li>
                 <li>Empathetic and understanding</li>
-                <li>Will look for answers extensively before asking for help</li>
+                <li>I will look for answers extensively before asking for help</li>
                 </ul>
             </div>
 
             {/* Weaknesses Card */}
-            <div className="w-full sm:w-2/5 p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
+            <div className="w-full p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
                 <h3 className="text-lg font-semibold border-b-2 border-blue-500 mb-2 pb-1">🧩 My perceived weaknesses</h3>
                 <ul className="list-disc pl-5 space-y-1">
                 <li>I take a long time to build close, personal relationships with coworkers.</li>
@@ -34,6 +34,12 @@ const Perceptions = ({ handleOpenEmailModal }) => {
                 <li>My facial expressions do not always accurately show my emotions.</li>
                 <li>I require many bathroom breaks because I drink coffee all day long to stay mentally locked in.</li>
                 </ul>
+            </div>
+
+            {/* Misunderstandings Card */}
+            <div className="w-full p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
+                <h3 className="text-lg font-semibold border-b-2 border-blue-500 mb-2 pb-1">🧩 Misunderstandings</h3>
+                <p className=" leading-7">Due to my high level of introversion people often misunderstand me. It takes quite awhile for me to open up. This is often misinterpreted as me disliking people or being in a bad mood. In reality, I am easy going and very laid back it just takes extra time for people to realize it.</p>
             </div>
        </div>
         <div className="sm:flex-col flex gap-3 align-middle w-4/5 mx-auto">
