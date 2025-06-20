@@ -38,7 +38,7 @@ const Perceptions = ({ handleOpenEmailModal }) => {
 
             {/* Misunderstandings Card */}
             <div className="w-full p-4 bg-gradient-to-r from-red-500 via-pink-500 to-purple-300">
-                <h3 className="text-lg font-semibold border-b-2 border-blue-500 mb-2 pb-1">🧩 Misunderstandings</h3>
+                <h3 className="text-lg font-semibold border-b-2 border-blue-500 mb-2 pb-1">🤔 Misunderstandings</h3>
                 <p className=" leading-7">Due to my high level of introversion people often misunderstand me. It takes quite awhile for me to open up. This is often misinterpreted as me disliking people or being in a bad mood. In reality, I am easy going and very laid back it just takes extra time for people to realize it.</p>
             </div>
        </div>
